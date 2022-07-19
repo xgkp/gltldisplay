@@ -11,7 +11,7 @@ import Foundation
 class ViewController: UIViewController {
     
     var tableView: UITableView!
-    var dataArray: [String] = ["dae","dae + material", "obj", "scn", "custom box"]
+    var dataArray: [String] = ["dae","dae + material", "obj", "scn", "custom box","glt"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,6 +69,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         } else if(text == "custom box") {
             let vc = BoxViewController()
             vc.modalPresentationStyle = .overFullScreen
+            present(vc, animated: true, completion: nil)
+        }else{
+            let vc = YZGltViewController()
+            vc.modalPresentationStyle = .overFullScreen
+
             present(vc, animated: true, completion: nil)
         }
     }

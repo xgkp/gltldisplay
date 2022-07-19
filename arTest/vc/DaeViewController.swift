@@ -60,7 +60,7 @@ class DaeViewController: UIViewController {
  
     func addKeShengDAE() {
         
-        guard let url = Bundle.main.url(forResource: "man", withExtension: "dae") else {
+        guard let url = Bundle.main.url(forResource: "manghe01", withExtension: "fbx") else {
             fatalError("baby_groot.scn not exit.")
         }
         
