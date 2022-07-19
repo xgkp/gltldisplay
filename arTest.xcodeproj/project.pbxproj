@@ -15,6 +15,7 @@
 		15A91822288654BA009D9064 /* manghe04.glb in Resources */ = {isa = PBXBuildFile; fileRef = 15A9181B288654BA009D9064 /* manghe04.glb */; };
 		15A91823288654BA009D9064 /* 头号玩家盲盒贴图01.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A9181C288654BA009D9064 /* 头号玩家盲盒贴图01.png */; };
 		15A91824288654BA009D9064 /* cylinderEngine.glb in Resources */ = {isa = PBXBuildFile; fileRef = 15A9181D288654BA009D9064 /* cylinderEngine.glb */; };
+		15A9182628866281009D9064 /* GLTFQuickLook.qlgenerator in Resources */ = {isa = PBXBuildFile; fileRef = 15A9182528866281009D9064 /* GLTFQuickLook.qlgenerator */; };
 		2A160B8327C87D8B00626C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A160B8227C87D8B00626C5F /* AppDelegate.swift */; };
 		2A160B8527C87D8B00626C5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A160B8427C87D8B00626C5F /* SceneDelegate.swift */; };
 		2A160B8727C87D8B00626C5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A160B8627C87D8B00626C5F /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		15A9181B288654BA009D9064 /* manghe04.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = manghe04.glb; sourceTree = "<group>"; };
 		15A9181C288654BA009D9064 /* 头号玩家盲盒贴图01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头号玩家盲盒贴图01.png"; sourceTree = "<group>"; };
 		15A9181D288654BA009D9064 /* cylinderEngine.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cylinderEngine.glb; sourceTree = "<group>"; };
+		15A9182528866281009D9064 /* GLTFQuickLook.qlgenerator */ = {isa = PBXFileReference; lastKnownFileType = file; name = GLTFQuickLook.qlgenerator; path = arTest/GLTFQuickLook.qlgenerator; sourceTree = SOURCE_ROOT; };
 		2A160B7F27C87D8B00626C5F /* arTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A160B8227C87D8B00626C5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A160B8427C87D8B00626C5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		2AB9110B27CE1B7B00310FE6 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				15A9182528866281009D9064 /* GLTFQuickLook.qlgenerator */,
 				15A91816288654BA009D9064 /* gltf */,
 			);
 			path = resource;
@@ -225,6 +228,7 @@
 				15A91823288654BA009D9064 /* 头号玩家盲盒贴图01.png in Resources */,
 				2A160B8C27C87D8C00626C5F /* Assets.xcassets in Resources */,
 				15A9181E288654BA009D9064 /* Wayfair-Bulb-MROW9060.glb in Resources */,
+				15A9182628866281009D9064 /* GLTFQuickLook.qlgenerator in Resources */,
 				15A9181F288654BA009D9064 /* manghe03.glb in Resources */,
 				2A160B8A27C87D8B00626C5F /* Main.storyboard in Resources */,
 			);
